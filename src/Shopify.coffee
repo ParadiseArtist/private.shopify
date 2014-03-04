@@ -86,7 +86,7 @@ module.exports = class Shopify
               @qs arg if arg.query
 
             # detect Shopify id
-            @id arg if _.isNumber(arg)
+            @id arg if _.isNumber(arg) and not @id()
             
             # store slug from methodized fn
             @route route if route

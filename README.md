@@ -18,9 +18,9 @@ Methods
   
   * namespaces are slugs that are used directly after the /admin part of the URL in Shopify's API
 
-    - example1: `/admin/products/count.json`        => store.products.count()
+    - example1: `/admin/products/count.json`        => store.products().count()
     - example2: `/admin/shop.json`                   => store.shop().get()
-    - example3: `/admin/products/12345/images.json` => store.products(12345).images().get()
+    - example3: `/admin/products/12345/images/6666.json` => store.products(12345).images(6666).get()
     - example4: `/admin/products.json`              => store.products().all()
 
   * chainable for syntactic sugar
