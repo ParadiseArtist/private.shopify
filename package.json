@@ -2,7 +2,7 @@
   "name": "private.shopify",
   "version": "0.0.0",
   "description": "For developing private applications on Shoppify stores",
-  "main": "index.js",
+  "main": "lib/Shopify.js",
   "scripts": {
     "test": "/tests/none.js"
   },
@@ -16,5 +16,10 @@
     "api"
   ],
   "author": "Benjamin Clos",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "request": "~2.34.0",
+    "underscore": "~1.6.0",
+    "q": "~1.0.0"
+  }
 }
