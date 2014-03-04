@@ -6,3 +6,5 @@
 
 For building private shopify applications
 
+checkout:
+`/examples`

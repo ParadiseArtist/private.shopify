@@ -87,14 +87,20 @@ module.exports = class Shopify
 
             # detect Shopify id
             @id arg if _.isNumber(arg)
+            
+            # store slug from methodized fn
             @route route if route
+
             deferred = Q.defer()
+
             opts = url: @url(route)
             opts.json = @toJSON() if @body()
-            console.log opts
             callback = _.bind @__callback__, @, deferred
             req = request[type] opts, callback
-            deferred.promise
+            promise = deferred.promise
+            # if global error handler exists
+            promise.fail @errorHandler() if @errorHandler()
+            promise
 
     #setters
     _([
@@ -103,6 +109,7 @@ module.exports = class Shopify
         'route'
         'child'
         'qs'
+        'errorHandler'
       ]).forEach (setter)-> 
         do (setter)-> 
         if not Shopify[setter] 
@@ -140,6 +147,7 @@ module.exports = class Shopify
     if res.statusCode is 200 or 201
       try
         body = JSON.parse body
+        return deferred.reject body.errors if body.errors
         body = body[Object.keys(body)[0]]
       
       catch e
