@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.46
+3 info using node@v0.8.14
+4 verbose config file /home/webapps/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose publish [ '.' ]
+8 verbose read json /home/modules/private.shopify/package.json
+9 verbose cache add [ '.', null ]
+10 silly cache add name=undefined spec="." args=[".",null]
+11 verbose parsed url { pathname: '.', path: '.', href: '.' }
+12 silly lockFile 3a52ce78- .
+13 verbose lock . /home/webapps/.npm/3a52ce78-.lock
+14 verbose read json package.json
+15 verbose tar pack [ '/home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/tmp.tgz',
+15 verbose tar pack   '.' ]
+16 verbose tarball /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/tmp.tgz
+17 verbose folder .
+18 info prepublish private.shopify@0.0.1
+19 silly lockFile d869ee9d-4164-0-08181623369455338-tmp-tgz /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/tmp.tgz
+20 verbose lock /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/tmp.tgz /home/webapps/.npm/d869ee9d-4164-0-08181623369455338-tmp-tgz.lock
+21 silly lockFile d869ee9d-4164-0-08181623369455338-tmp-tgz /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/tmp.tgz
+22 verbose tar unpack /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/tmp.tgz
+23 silly lockFile 93e09b9b-4164-0-08181623369455338-package /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package
+24 verbose lock /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package /home/webapps/.npm/93e09b9b-4164-0-08181623369455338-package.lock
+25 silly gunzTarPerm modes [ '755', '644' ]
+26 silly gunzTarPerm extractEntry package.json
+27 silly gunzTarPerm extractEntry .npmignore
+28 silly gunzTarPerm modified mode [ '.npmignore', 384, 420 ]
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry lib/Shopify.js
+31 silly gunzTarPerm extractEntry lib/utils.js
+32 silly gunzTarPerm extractEntry Cakefile
+33 silly gunzTarPerm extractEntry src/Shopify.coffee
+34 silly gunzTarPerm modified mode [ 'src/Shopify.coffee', 384, 420 ]
+35 silly gunzTarPerm extractEntry src/utils.coffee
+36 silly gunzTarPerm modified mode [ 'src/utils.coffee', 384, 420 ]
+37 silly gunzTarPerm extractEntry examples/shop.coffee
+38 silly gunzTarPerm modified mode [ 'examples/shop.coffee', 384, 420 ]
+39 silly gunzTarPerm extractEntry examples/instance.coffee
+40 silly gunzTarPerm modified mode [ 'examples/instance.coffee', 384, 420 ]
+41 silly gunzTarPerm extractEntry examples/nested.coffee
+42 silly gunzTarPerm modified mode [ 'examples/nested.coffee', 384, 420 ]
+43 verbose read json /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package/package.json
+44 silly lockFile 93e09b9b-4164-0-08181623369455338-package /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package
+45 verbose from cache /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package/package.json
+46 verbose tar pack [ '/home/webapps/.npm/private.shopify/0.0.1/package.tgz',
+46 verbose tar pack   '/home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package' ]
+47 verbose tarball /home/webapps/.npm/private.shopify/0.0.1/package.tgz
+48 verbose folder /home/webapps/tmp/npm-10111/1393959414164-0.08181623369455338/package
+49 silly lockFile 5840cac2-rivate-shopify-0-0-1-package-tgz /home/webapps/.npm/private.shopify/0.0.1/package.tgz
+50 verbose lock /home/webapps/.npm/private.shopify/0.0.1/package.tgz /home/webapps/.npm/5840cac2-rivate-shopify-0-0-1-package-tgz.lock
+51 silly lockFile 5840cac2-rivate-shopify-0-0-1-package-tgz /home/webapps/.npm/private.shopify/0.0.1/package.tgz
+52 silly lockFile 23246c21-pm-private-shopify-0-0-1-package /home/webapps/.npm/private.shopify/0.0.1/package
+53 verbose lock /home/webapps/.npm/private.shopify/0.0.1/package /home/webapps/.npm/23246c21-pm-private-shopify-0-0-1-package.lock
+54 silly lockFile 23246c21-pm-private-shopify-0-0-1-package /home/webapps/.npm/private.shopify/0.0.1/package
+55 verbose tar unpack /home/webapps/.npm/private.shopify/0.0.1/package.tgz
+56 silly lockFile 23246c21-pm-private-shopify-0-0-1-package /home/webapps/.npm/private.shopify/0.0.1/package
+57 verbose lock /home/webapps/.npm/private.shopify/0.0.1/package /home/webapps/.npm/23246c21-pm-private-shopify-0-0-1-package.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry lib/Shopify.js
+63 silly gunzTarPerm extractEntry lib/utils.js
+64 silly gunzTarPerm extractEntry Cakefile
+65 silly gunzTarPerm extractEntry src/Shopify.coffee
+66 silly gunzTarPerm extractEntry src/utils.coffee
+67 silly gunzTarPerm extractEntry examples/shop.coffee
+68 silly gunzTarPerm extractEntry examples/instance.coffee
+69 silly gunzTarPerm extractEntry examples/nested.coffee
+70 verbose read json /home/webapps/.npm/private.shopify/0.0.1/package/package.json
+71 silly lockFile 23246c21-pm-private-shopify-0-0-1-package /home/webapps/.npm/private.shopify/0.0.1/package
+72 silly shasum updated bytes 4116
+73 info shasum c20809ffe419c358074bbe21ce9772e58f8d7a01
+73 info shasum /home/webapps/.npm/private.shopify/0.0.1/package.tgz
+74 verbose from cache /home/webapps/.npm/private.shopify/0.0.1/package/package.json
+75 verbose chmod /home/webapps/.npm/private.shopify/0.0.1/package.tgz 644
+76 verbose chown /home/webapps/.npm/private.shopify/0.0.1/package.tgz [ 1000, 1001 ]
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'private.shopify',
+78 silly publish   version: '0.0.1',
+78 silly publish   description: 'For developing private applications on Shoppify stores',
+78 silly publish   main: 'lib/Shopify.js',
+78 silly publish   scripts: { test: '/tests/none.js' },
+78 silly publish   repository:
+78 silly publish    { type: 'git',
+78 silly publish      url: 'git@github.com:ondreian/private.shopify.git' },
+78 silly publish   keywords: [ 'shopify', 'private', 'api' ],
+78 silly publish   author: { name: 'Benjamin Clos' },
+78 silly publish   license: 'BSD',
+78 silly publish   dependencies: { request: '~2.34.0', underscore: '~1.6.0', q: '~1.0.0' },
+78 silly publish   readme: '\n# Private.Shopify\n--------------------\n\n`npm install private.shopify`\n\nFor building private shopify applications\n\ncheckout:\n`/examples`',
+78 silly publish   _id: 'private.shopify@0.0.1',
+78 silly publish   dist: { shasum: 'c20809ffe419c358074bbe21ce9772e58f8d7a01' } }
+79 verbose url raw private.shopify
+80 verbose url resolving [ 'http://registry.npmjs.org/', './private.shopify' ]
+81 verbose url resolved http://registry.npmjs.org/private.shopify
+82 info retry registry request attempt 1 at 22:56:54
+83 http PUT http://registry.npmjs.org/private.shopify
+84 http 201 http://registry.npmjs.org/private.shopify
+85 verbose url raw private.shopify
+86 verbose url resolving [ 'http://registry.npmjs.org/', './private.shopify' ]
+87 verbose url resolved http://registry.npmjs.org/private.shopify
+88 info retry registry request attempt 1 at 22:56:54
+89 http GET http://registry.npmjs.org/private.shopify
+90 http 200 http://registry.npmjs.org/private.shopify
+91 verbose url raw private.shopify/0.0.1/-tag/latest
+92 verbose url resolving [ 'http://registry.npmjs.org/',
+92 verbose url resolving   './private.shopify/0.0.1/-tag/latest' ]
+93 verbose url resolved http://registry.npmjs.org/private.shopify/0.0.1/-tag/latest
+94 info retry registry request attempt 1 at 22:56:54
+95 http PUT http://registry.npmjs.org/private.shopify/0.0.1/-tag/latest
+96 http 201 http://registry.npmjs.org/private.shopify/0.0.1/-tag/latest
+97 verbose publish attach 2 [ 'private.shopify',
+97 verbose publish   '/home/webapps/.npm/private.shopify/0.0.1/package.tgz',
+97 verbose publish   'private.shopify-0.0.1.tgz' ]
+98 verbose url raw private.shopify
+99 verbose url resolving [ 'http://registry.npmjs.org/', './private.shopify' ]
+100 verbose url resolved http://registry.npmjs.org/private.shopify
+101 info retry registry request attempt 1 at 22:56:55
+102 http GET http://registry.npmjs.org/private.shopify
+103 http 200 http://registry.npmjs.org/private.shopify
+104 verbose uploading [ 'private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072',
+104 verbose uploading   '/home/webapps/.npm/private.shopify/0.0.1/package.tgz' ]
+105 verbose url raw private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072
+106 verbose url resolving [ 'http://registry.npmjs.org/',
+106 verbose url resolving   './private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072' ]
+107 verbose url resolved http://registry.npmjs.org/private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072
+108 info retry registry request attempt 1 at 22:56:55
+109 http PUT http://registry.npmjs.org/private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072
+110 http 403 http://registry.npmjs.org/private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072
+111 verbose publish attach 3 [ [Error: forbidden Cannot replace existing tarball attachment: private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072],
+111 verbose publish   'private.shopify' ]
+112 error Error: forbidden Cannot replace existing tarball attachment: private.shopify/-/private.shopify-0.0.1.tgz/-rev/5-784a63add526b196c757d0797902d072
+112 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:14)
+112 error     at Request.init.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:120:22)
+112 error     at Request.EventEmitter.emit (events.js:99:17)
+112 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:555:16)
+112 error     at Request.EventEmitter.emit (events.js:96:17)
+112 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (/usr/local/lib/node_modules/npm/node_modules/request/main.js:517:14)
+112 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+112 error     at IncomingMessage._emitEnd (http.js:366:10)
+112 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+112 error     at Socket.socketOnData [as ondata] (http.js:1367:20)
+113 error If you need help, you may report this log at:
+113 error     <http://github.com/isaacs/npm/issues>
+113 error or email it to:
+113 error     <npm-@googlegroups.com>
+114 error System Linux 2.6.32-042stab068.8
+115 error command "node" "/usr/local/bin/npm" "publish"
+116 error cwd /home/modules/private.shopify
+117 error node -v v0.8.14
+118 error npm -v 1.1.46
+119 verbose exit [ 1, true ]
