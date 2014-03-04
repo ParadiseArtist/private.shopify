@@ -1,0 +1,20 @@
+{
+  "name": "private.shopify",
+  "version": "0.0.0",
+  "description": "For developing private applications on Shoppify stores",
+  "main": "index.js",
+  "scripts": {
+    "test": "/tests/none.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ondreian/private.shopify.git"
+  },
+  "keywords": [
+    "shopify",
+    "private",
+    "api"
+  ],
+  "author": "Benjamin Clos",
+  "license": "BSD"
+}
