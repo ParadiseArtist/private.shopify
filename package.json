@@ -1,6 +1,6 @@
 {
   "name": "private.shopify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "For developing private applications on Shoppify stores",
   "main": "lib/Shopify.js",
   "scripts": {
