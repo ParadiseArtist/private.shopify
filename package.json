@@ -18,8 +18,8 @@
   "author": "Benjamin Clos",
   "license": "BSD",
   "dependencies": {
-    "request": "~2.34.0",
-    "underscore": "~1.6.0",
-    "q": "~1.0.0"
+    "request": "~2.78.0",
+    "underscore": "~1.8.3",
+    "q": "~1.4.1"
   }
 }
